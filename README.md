@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Aryan Gusain's Portfolio
 
-## Project info
+A modern, responsive portfolio website built with React and TypeScript.
 
-**URL**: https://lovable.dev/projects/01d813aa-4c22-4642-8dc0-a9bdbca1e1d4
+## 🚀 Features
 
-## How can I edit this code?
+- Responsive design for all devices
+- Modern UI with smooth animations
+- Dark/Light mode support
+- Interactive project showcase
+- Contact form
+- Blog section
 
-There are several ways of editing your application.
+## 🛠️ Built With
 
-**Use Lovable**
+- [React](https://reactjs.org/) - Frontend framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+- [Vite](https://vitejs.dev/) - Build tool
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/01d813aa-4c22-4642-8dc0-a9bdbca1e1d4) and start prompting.
+## 🏃‍♂️ Running Locally
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository
+```bash
+git clone https://github.com/AryanGusain-dev/portflio-site.git
+```
 
-**Use your preferred IDE**
+2. Install dependencies
+```bash
+npm install
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📱 Mobile Testing
 
-**Use GitHub Codespaces**
+To test on mobile devices:
+1. Run the development server
+2. Find your local IP address
+3. Access the site using `http://YOUR_IP:5173` on your mobile device
+4. Make sure your mobile device is on the same network
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔧 Environment Variables
 
-## What technologies are used for this project?
+Create a `.env` file in the root directory with:
+```env
+VITE_EMAIL_SERVICE_ID=your_service_id
+VITE_EMAIL_TEMPLATE_ID=your_template_id
+VITE_EMAIL_PUBLIC_KEY=your_public_key
+```
 
-This project is built with:
+## 📄 License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is open source and available under the [MIT License](LICENSE).
 
-## How can I deploy this project?
+## 📬 Contact
 
-Simply open [Lovable](https://lovable.dev/projects/01d813aa-4c22-4642-8dc0-a9bdbca1e1d4) and click on Share -> Publish.
+Aryan Gusain - [@AryanGusain-dev](https://github.com/AryanGusain-dev)
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Project Link: [https://github.com/AryanGusain-dev/portflio-site](https://github.com/AryanGusain-dev/portflio-site)
