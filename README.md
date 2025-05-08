@@ -6,7 +6,6 @@ A modern, responsive portfolio website built with React and TypeScript.
 
 - Responsive design for all devices
 - Modern UI with smooth animations
-- Dark/Light mode support
 - Interactive project showcase
 - Contact form
 - Blog section
